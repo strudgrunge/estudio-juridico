@@ -179,6 +179,10 @@ body {
   .navbar-button {
     display: block;
   }
+  .navbar-button a {
+    text-decoration: none;
+    color: #272727;
+  }
   .navbar-button button {
     width: 140px;
     height: 40px;
@@ -426,7 +430,7 @@ footer p {
 }
 @media screen and (min-width: 1024px) {
   .contact {
-    height: 100vh;
+    height: 100%;
   }
   .contact h1 {
     text-align: center;
@@ -438,7 +442,6 @@ footer p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
   }
   .contact-form input {
     width: 384px;
