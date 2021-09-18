@@ -4,23 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/services.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <script src="bases.js"></script>
-    <title>Estudio Juridico</title>
+    <title>Servicios</title>
   </head>
-
   <body>
-    <!-- 
-    <header>
-        <img src="assets/imagenes/Logo.png" alt="logo">
-    </header>
-  -->
-    <!--div barra de navegacion-->
     <div class="init">
       <div class="navbar">
         <div class="navbar-header">
@@ -33,7 +25,7 @@
         </div>
 
         <div class="navbar-menu">
-          <div><a href="index.html"></a> Inicio</div>
+          <div><a href="index.html">Inicio</a></div>
           <div><a href="services.html">Servicios</a></div>
           <div><a href="team.html">Equipo</a></div>
           <div><a href="#contact">Contacto</a></div>
@@ -44,31 +36,40 @@
           </button>
         </div>
       </div>
-
-      <!-- Bienvenida -->
-      <div class="welcome">
-        <div class="welcome-container">
-          <div class="welcome-header">
-            <div>
-              <h1>Estudio</h1>
-            </div>
-            <div class="line"></div>
+      <!-- Servicios -->
+      <div id="services" class="services">
+        <h1>Servicios</h1>
+        <div class="services-cards">
+          <div class="service-card">
+            <img src="assets/iconos/balance-icon.png" alt="icono" />
+            <h3>Derecho Penal</h3>
+            <p>
+              El Proceso Penal, es un largo y complejo camino, es por ello, que
+              cada vez que asumimos una Defensa Penal, tomamos el compromiso de
+              poner en práctica todo nuestro conocimiento y experiencia.
+            </p>
           </div>
-          <div class="welcome-content">
-            <img src="assets/imagenes/Init-img.png" alt="Bienvenida" />
-            <div class="welcome-side">
-              <h1>Juridico</h1>
-              <p>
-                Bienvenidos a nuestro estudio juridico, tenemos un equipo
-                altamente capacitado a su entera disposicion.
-              </p>
-              <button>EQUIPO</button>
-            </div>
+          <div class="service-card">
+            <img src="assets/iconos/money-icon.png" alt="icono" />
+            <h3>Derecho Comercial</h3>
+            <p>
+              El comercio es una de las actividades más antiguas que existen. En
+              estudio juridico, analizamos las claves para comprender mejor este
+              conjunto de normas y su aplicación.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="assets/iconos/civil-icon.png" alt="icono" />
+            <h3>Derecho Civil</h3>
+            <p>
+              El derecho civil es un sistema de leyes y normas que regula todo
+              lo relativo a las personas, los vínculos jurídicos entre ellas y
+              con los bienes a nivel privado.
+            </p>
           </div>
         </div>
       </div>
     </div>
-
     <!--Contacto-->
     <div id="contact" class="contact">
       <h1>Contacto</h1>

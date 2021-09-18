@@ -1,22 +1,11 @@
-/*
-color fondo #251D27
-amarillo #FCCF08
-color parrafos #BFB9BF
-gris #908D90
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 body {
   margin: auto;
 }
-
 .init {
   background-color: #251d27;
   height: 100vh;
-  padding: 20px;
+  padding: 20px 0;
 }
-
 .navbar-header {
   display: flex;
   align-items: center;
@@ -39,121 +28,6 @@ body {
 .navbar-button {
   display: none;
 }
-
-.welcome {
-  /*
-   padding: 0 20px 40px 20px;
-  */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* height: calc(100% - 40px);*/
-  height: 85vh;
-  padding: 0 10px;
-}
-
-.welcome h1 {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 50px;
-}
-
-@media screen and (min-width: 400px) {
-  .welcome h1 {
-    font-size: 60px;
-  }
-}
-
-@media screen and (min-width: 550px) {
-  .welcome h1 {
-    font-size: 70px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .welcome {
-    width: 100%;
-  }
-  .welcome-container {
-    /* width: 100vw; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .welcome h1 {
-    font-size: 80px;
-    line-height: 20px;
-  }
-  .welcome img {
-    max-width: 304px;
-  }
-  .welcome-content {
-    display: flex;
-    align-items: center;
-  }
-  .welcome-header {
-    width: 100%;
-    justify-content: center;
-  }
-  .welcome-header h1 {
-    width: 100%;
-    max-width: 350px;
-  }
-  .welcome-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 0 0 20px;
-    height: 100%;
-  }
-  .welcome p {
-    width: 400px;
-  }
-}
-
-.welcome-header {
-  display: flex;
-  align-items: center;
-}
-
-.line {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .line {
-    display: block;
-    border: 1px solid #fccf08;
-    width: 400px;
-    /*max-width: 350px;*/
-    height: 0;
-    margin: 0 20px;
-    margin-top: 30px;
-  }
-}
-
-.welcome p {
-  color: #bfb9bf;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.welcome img {
-  width: 100%;
-  /* max-width: 532px;*/
-}
-
-.welcome button {
-  width: 143px;
-  height: 40px;
-  color: white;
-  background-color: transparent;
-  border: 1px solid white;
-  font-size: 15px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
 @media screen and (min-width: 1100px) {
   .burger {
     display: none;
@@ -205,67 +79,6 @@ body {
     margin-left: 30px;
   }
 }
-
-.services {
-  padding: 20px;
-}
-
-.services h1 {
-  font-family: 'Lato';
-  font-size: 40px;
-  padding: 20px 0;
-}
-.service-card {
-  padding: 30px 0;
-}
-.service-card h3 {
-  font-size: 25px;
-  color: #251d27;
-  font-weight: bold;
-  font-family: 'Lato';
-}
-
-.service-card p {
-  color: #908d90;
-  font-size: 15px;
-  font-family: 'Roboto';
-  line-height: 25px;
-  max-width: 400px;
-}
-@media screen and (min-width: 768px) {
-  .services {
-    height: 100vh;
-  }
-  .services h1 {
-    text-align: center;
-    padding-bottom: 40px;
-  }
-
-  .services-cards {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 65vh;
-  }
-  .service-card {
-    padding: 0 10px;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  .services h1 {
-    font-size: 80px;
-    line-height: 0;
-  }
-  .service-card h3 {
-    font-size: 40px;
-  }
-  .service-card p {
-    font-size: 18px;
-    max-width: 450px;
-  }
-}
-
 .team {
   padding: 20px;
   background-color: #251d27;

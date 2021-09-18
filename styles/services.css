@@ -1,22 +1,11 @@
-/*
-color fondo #251D27
-amarillo #FCCF08
-color parrafos #BFB9BF
-gris #908D90
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 body {
   margin: auto;
 }
-
 .init {
-  background-color: #251d27;
+  /* background-color: #251d27; */
   height: 100vh;
   padding: 20px;
 }
-
 .navbar-header {
   display: flex;
   align-items: center;
@@ -39,121 +28,6 @@ body {
 .navbar-button {
   display: none;
 }
-
-.welcome {
-  /*
-   padding: 0 20px 40px 20px;
-  */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* height: calc(100% - 40px);*/
-  height: 85vh;
-  padding: 0 10px;
-}
-
-.welcome h1 {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 50px;
-}
-
-@media screen and (min-width: 400px) {
-  .welcome h1 {
-    font-size: 60px;
-  }
-}
-
-@media screen and (min-width: 550px) {
-  .welcome h1 {
-    font-size: 70px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .welcome {
-    width: 100%;
-  }
-  .welcome-container {
-    /* width: 100vw; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .welcome h1 {
-    font-size: 80px;
-    line-height: 20px;
-  }
-  .welcome img {
-    max-width: 304px;
-  }
-  .welcome-content {
-    display: flex;
-    align-items: center;
-  }
-  .welcome-header {
-    width: 100%;
-    justify-content: center;
-  }
-  .welcome-header h1 {
-    width: 100%;
-    max-width: 350px;
-  }
-  .welcome-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 0 0 20px;
-    height: 100%;
-  }
-  .welcome p {
-    width: 400px;
-  }
-}
-
-.welcome-header {
-  display: flex;
-  align-items: center;
-}
-
-.line {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .line {
-    display: block;
-    border: 1px solid #fccf08;
-    width: 400px;
-    /*max-width: 350px;*/
-    height: 0;
-    margin: 0 20px;
-    margin-top: 30px;
-  }
-}
-
-.welcome p {
-  color: #bfb9bf;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.welcome img {
-  width: 100%;
-  /* max-width: 532px;*/
-}
-
-.welcome button {
-  width: 143px;
-  height: 40px;
-  color: white;
-  background-color: transparent;
-  border: 1px solid white;
-  font-size: 15px;
-  font-weight: 300;
-  cursor: pointer;
-}
-
 @media screen and (min-width: 1100px) {
   .burger {
     display: none;
@@ -263,88 +137,6 @@ body {
   .service-card p {
     font-size: 18px;
     max-width: 450px;
-  }
-}
-
-.team {
-  padding: 20px;
-  background-color: #251d27;
-}
-.team p {
-  text-align: center;
-  color: white;
-  font-size: 15px;
-  font-family: 'Roboto';
-  font-weight: 300;
-  line-height: 25px;
-}
-.team h1 {
-  text-align: center;
-  font-family: 'Lato';
-  font-size: 40px;
-  color: white;
-  padding: 30px 0 10px 0;
-}
-
-.team-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.team-cards img {
-  width: 100%;
-}
-.team-cards h4 {
-  text-align: center;
-  font-family: 'Lato';
-  color: white;
-  font-size: 25px;
-}
-/* .team-cards p {
-  text-align: center;
-} */
-.team-card {
-  padding: 30px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .team {
-    height: 100vh;
-  }
-
-  .team-cards {
-    flex-direction: row;
-  }
-  .team-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-  }
-  .team-card img {
-    max-width: 270px;
-  }
-  .team-card p {
-    max-width: 500px;
-  }
-  .para {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .para p {
-    width: 400px;
-  }
-}
-@media screen and (min-width: 1100px) {
-  .team h1 {
-    font-size: 80px;
-    line-height: 0;
-  }
-  .team-card {
-    padding-top: 40px;
   }
 }
 .contact {
